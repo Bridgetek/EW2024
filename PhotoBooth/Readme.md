@@ -1,8 +1,5 @@
-*Read me*
+The EW2024 Photobooth Demo is an interactive setup where event attendees can take instant photos using a camera, typically linked to an LCD that displays the photos and allows users to customize, add effect, and drawing on them. The Photobooth enhances user engagement and adds an entertaining, memorable experience for event participants.
 
-This folder contains the source code for photo booth demo, shown on EW2024 North America.   
-This demo is based on Adafruit ESP32-S3 feather board and BT820 demo board.    
-The demo sheet is at:  
-https://brtchip.com/ew2024-demo-sheet-on-photobooth/  
+Supported Targets: ESP32-S3
 
-
+![EW2024 Photobooth](https://bridgetek.github.io/tutorials/ew2024_photobooth/html/_images/demo_v1.2.3.jpg)

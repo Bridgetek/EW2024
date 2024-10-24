@@ -85,8 +85,18 @@ One line version (need wsl or cygwin installed):
 #### Configure the ESP-IDF extension:
 Open VScode, open local folder with dev container: "Dev Containers: Reopen Folder Locally"
 
-Build and run follow guideline:
- - [Compile the source](#compile-the-source)
+#### Compile the source
+ - Open Terminal tab in VScode, type:
+ 
+        $ cd esp\[ESP version]\esp-idf
+    	$ ./install.sh
+    	$ ./export.sh
+    	$ idf.py set-target esp32s3
+    	$ idf.py reconfigure
+    	$ idf.py menuconfig
+    	$ idf.py build
+
+Run the demo follow guideline:
  - [Hardware connection](#hardware-connections)
  - [Run the demo](#run-the-demo)
 

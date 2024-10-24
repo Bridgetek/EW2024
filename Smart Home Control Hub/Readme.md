@@ -7,4 +7,7 @@ The demo sheet is at:
 https://brtchip.com/ew2024-demo-sheet-on-smart-home-hub/  
 
 
+The GUI is designed with ESD(https://brtchip.com/esd/) and exported as the STM32CubeIDE project.  
+
+
 
